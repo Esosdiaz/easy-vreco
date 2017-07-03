@@ -35,7 +35,6 @@ function initMap(){
     var autocomplete = new google.maps.places.Autocomplete(inputDestino);
         autocomplete.bindTo("bounds", map);
 
-        //De aquí hasta abajo no entiendo qué hace - lo copié para ver si funcionaba
         var directionsDisplay = new google.maps.DirectionsRenderer();
 		var directionsService = new google.maps.DirectionsService();
 		document.getElementById("origen").addEventListener("change", onChangeHandler);
